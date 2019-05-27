@@ -1,66 +1,58 @@
 {
-  "ReportViewer": {
-      "path": "report-viewer",
-      "samples": [
-          {
-              "routerPath": "getting-started",
-              "className": "ReportViewerGettingStarted",
-              "sampleName": "Getting Started",
-              "metaData": {
-                  "title": "Getting Started",
-                  "description": "Getting Started description"
-              }
-          },
-          {
-              "routerPath": "overview",
-              "className": "ReportViewerOverView",
-              "sampleName": "OverView",
-              "metaData": {
-                  "title": "OverView",
-                  "description": "OverView description"
-              }
-          },
-          {
-              "routerPath": "reports",
-              "className": "ReportViewerReports",
-              "sampleName": "Reports",
-              "metaData": {
-                  "title": "Reports",
-                  "description": "Reports description"
-              }
-          }
-      ]
-  },
-  "ReportDesigner": {
-      "path": "report-designer",
-      "samples": [
-          {
-              "routerPath": "getting-started",
-              "className": "ReportDesignerGettingStarted",
-              "sampleName": "Getting Started",
-              "metaData": {
-                  "title": "Getting Started",
-                  "description": "Getting Started description"
-              }
-          },
-          {
-              "routerPath": "overview",
-              "className": "ReportDesignerOverView",
-              "sampleName": "OverView",
-              "metaData": {
-                  "title": "OverView",
-                  "description": "OverView description"
-              }
-          },
-          {
-              "routerPath": "reports",
-              "className": "ReportDesignerReports",
-              "sampleName": "Reports",
-              "metaData": {
-                  "title": "Reports",
-                  "description": "Reports description"
-              }
-          }
-      ]
-  }
+    "ReportViewer": {
+        "samples": [
+            {
+                "routerPath": "getting-started",
+                "sampleName": "Getting Started",
+                "metaData": {
+                    "title": "Getting Started",
+                    "description": "Getting Started description"
+                }
+            },
+            {
+                "routerPath": "overview",
+                "sampleName": "OverView",
+                "metaData": {
+                    "title": "OverView",
+                    "description": "OverView description"
+                }
+            },
+            {
+                "routerPath": "reports",
+                "sampleName": "Reports",
+                "metaData": {
+                    "title": "Reports",
+                    "description": "Reports description"
+                }
+            }
+        ]
+    },
+    "ReportDesigner": {
+        "samples": [
+            {
+                "routerPath": "getting-started",
+                "sampleName": "Getting Started",
+                "metaData": {
+                    "title": "Getting Started",
+                    "description": "Getting Started description"
+                }
+            },
+            {
+                "routerPath": "overview",
+                "sampleName": "OverView",
+                "metaData": {
+                    "title": "OverView",
+                    "description": "OverView description"
+                }
+            },
+            {
+                "routerPath": "reports",
+                "sampleName": "Reports",
+                "metaData": {
+                    "title": "Reports",
+                    "description": "Reports description"
+                }
+            }
+        ]
+    }
 }
