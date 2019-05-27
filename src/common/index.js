@@ -68,8 +68,8 @@ export function updateData(sampleData, isReportViewer) {
 export async function updataSample(sampleData, isReportViewer) {
     let dirName = isReportViewer ? reportViewer : reportDesigner;
     let demo = document.getElementsByTagName("ej-sample")[0];
-    let html = await fetchFile(`src/controls/${dirName}/${sampleData.routerPath}/${sampleData.routerPath}.html`);
-    let js = await fetchFile(`src/controls/${dirName}/${sampleData.routerPath}/${sampleData.routerPath}.js`);
+    let html = await fetchFile(`src/controls/${dirName}/${sampleData.routerPath}/index.html`);
+    let js = await fetchFile(`src/controls/${dirName}/${sampleData.routerPath}/index.js`);
     demo.innerHTML = html;
     eval(js);
 }
