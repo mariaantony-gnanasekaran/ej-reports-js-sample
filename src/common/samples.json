@@ -2,27 +2,243 @@
     "ReportViewer": {
         "samples": [
             {
-                "routerPath": "getting-started",
-                "sampleName": "Getting Started",
+                "routerPath": "initialize-report-viewer",
+                "sampleName": "Initialize Report Viewer",
                 "metaData": {
-                    "title": "Getting Started",
-                    "description": "Getting Started description"
+                    "title": "Initialize Report Viewer",
+                    "description": "Sales order detail report preview"
                 }
             },
             {
-                "routerPath": "overview",
-                "sampleName": "OverView",
+                "routerPath": "add-email-button",
+                "sampleName": "Add Email button",
                 "metaData": {
-                    "title": "OverView",
-                    "description": "OverView description"
+                    "title": "Custom Actions",
+                    "description": "Render report viewer toolbar with custom item"
                 }
             },
             {
-                "routerPath": "reports",
-                "sampleName": "Reports",
+                "routerPath": "export-event-handling",
+                "sampleName": "Export event handling",
                 "metaData": {
-                    "title": "Reports",
-                    "description": "Reports description"
+                    "title": "Export event handling",
+                    "description": "Sales order detail report export option event handling"
+                }
+            },
+            {
+                "routerPath": "change-excel-and-word-export-format",
+                "sampleName": "Change Excel and Word export format",
+                "metaData": {
+                    "title": "Change Excel and Word export format",
+                    "description": "Change Excel and Word report export format"
+                }
+            },
+            {
+                "routerPath": "hide-specific-export-type-for-report",
+                "sampleName": "Hide specific export type for report",
+                "metaData": {
+                    "title": "Hide specific export type for report",
+                    "description": "Hide specific export type for report export option"
+                }
+            },
+            {
+                "routerPath": "localization",
+                "sampleName": "Localization",
+                "metaData": {
+                    "title": "Localization",
+                    "description": "Render the report in french locale"
+                }
+            },
+            {
+                "routerPath": "view-report-in-print-mode",
+                "sampleName": "View report in print mode",
+                "metaData": {
+                    "title": "View report in print mode",
+                    "description": "Render sales oreder details report in print mode"
+                }
+            },
+            {
+                "routerPath": "print-in-new-page",
+                "sampleName": "Print in new page",
+                "metaData": {
+                    "title": "Print in new page",
+                    "description": "Open a new tab in Print options"
+                }
+            },
+            {
+                "routerPath": "set-page-orientation-and-paper-size",
+                "sampleName": "Set page orientation and paper size",
+                "metaData": {
+                    "title": "Set page orientation and paper size",
+                    "description": "Set the page orientation and paper size of the report"
+                }
+            },
+            {
+                "routerPath": "set-report-margin",
+                "sampleName": "Set report margin",
+                "metaData": {
+                    "title": "Set report margin",
+                    "description": "Set report margin in client side"
+                }
+            },
+            {
+                "routerPath": "set-page-height-and-width",
+                "sampleName": "Set page height and width",
+                "metaData": {
+                    "title": "Set page height and width",
+                    "description": "Set the page height and width of the report"
+                }
+            },
+            {
+                "routerPath": "show-print-progress",
+                "sampleName": "Show print progress",
+                "metaData": {
+                    "title": "Show print progress",
+                    "description": "Show print progress of the report exporting"
+                }
+            },
+            {
+                "routerPath": "bind-data-at-client",
+                "sampleName": "Bind data at client",
+                "metaData": {
+                    "title": "Bind data source at client side",
+                    "description": "Bind data source at client side for the product list report"
+                }
+            },
+            {
+                "routerPath": "report-loaded",
+                "sampleName": "Report loaded",
+                "metaData": {
+                    "title": "Report loaded",
+                    "description": "loaded the sales order details report in report loaded event"
+                }
+            },
+            {
+                "routerPath": "report-error",
+                "sampleName": "Report error",
+                "metaData": {
+                    "title": "Report error",
+                    "description": "sales order details report error"
+                }
+            },
+            {
+                "routerPath": "show-error",
+                "sampleName": "Show error",
+                "metaData": {
+                    "title": "Show error",
+                    "description": "Show the sales order details report error"
+                }
+            },
+            {
+                "routerPath": "drill-through",
+                "sampleName": "Drill through",
+                "metaData": {
+                    "title": "Drill through",
+                    "description": "Perform the drill through action using drill through event"
+                }
+            },
+            {
+                "routerPath": "hyperlink",
+                "sampleName": "Hyperlink",
+                "metaData": {
+                    "title": "Hyperlink",
+                    "description": "Perform hyperlink action to the customer sales analysis report"
+                }
+            },
+            {
+                "routerPath": "set-parameter-at-client",
+                "sampleName": "Set parameter at client",
+                "metaData": {
+                    "title": "Set parameter at client",
+                    "description": "Set parameter at client in sales order details report"
+                }
+            },
+            {
+                "routerPath": "reportserver-report",
+                "sampleName": "Reportserver Report",
+                "metaData": {
+                    "title": "Load Syncfusion Report Server reports",
+                    "description": "Load Syncfusion Report Server reports"
+                }
+            },
+            {
+                "routerPath": "sharepoint-integrated-report",
+                "sampleName": "Sharepoint Integrated Report",
+                "metaData": {
+                    "title": "Load SharePoint integrated reports",
+                    "description": "SharePoint integrated SSRS report preview in Report Viewer"
+                }
+            },
+            {
+                "routerPath": "set-datasource-credential",
+                "sampleName": "Set datasource credential",
+                "metaData": {
+                    "title": "Set data source credential for shared data sources",
+                    "description": "Set data source credential for shared data sources in Report Server"
+                }
+            },
+            {
+                "routerPath": "preview-subreport",
+                "sampleName": "Preview subreport",
+                "metaData": {
+                    "title": "Preview subreport",
+                    "description": "Preview side by side subreport in report viewer"
+                }
+            },
+            {
+                "routerPath": "hide-parameter-block",
+                "sampleName": "Hide parameter block",
+                "metaData": {
+                    "title": "Hide parameter block",
+                    "description": "Hides parameter toolbar option and parameter block from Report Viewer"
+                }
+            },
+            {
+                "routerPath": "hide-toolbar-items",
+                "sampleName": "Hide toolbar items",
+                "metaData": {
+                    "title": "Hide toolbar items",
+                    "description": "Hides print toolbar option from Report Viewer toolbar"
+                }
+            },
+            {
+                "routerPath": "hide-toolbar",
+                "sampleName": "Hide toolbar",
+                "metaData": {
+                    "title": "Hide toolbar",
+                    "description": "Hides Report Viewer toolbar"
+                }
+            },
+            {
+                "routerPath": "decide-or-hide-the-export-option",
+                "sampleName": "Decide or hide the export option",
+                "metaData": {
+                    "title": "Decide or hide the export option",
+                    "description": "Hides Html export type from export drop down options"
+                }
+            },
+            {
+                "routerPath": "add-custom-items-to-the-export-drop-down",
+                "sampleName": "Add custom items to the export drop-down",
+                "metaData": {
+                    "title": "Add custom items to the export drop-down",
+                    "description": "New export type options Text File and DOT are added to default export drop down options"
+                }
+            },
+            {
+                "routerPath": "add-custom-item-to-exiting-toolbar-group",
+                "sampleName": "Add custom item to exiting toolbar group",
+                "metaData": {
+                    "title": "Add custom item to exiting toolbar group",
+                    "description": "New custom option added to the existing toolbar group"
+                }
+            },
+            {
+                "routerPath": "add-new-toolbar-group",
+                "sampleName": "Add New Toolbar Group",
+                "metaData": {
+                    "title": "Add New Toolbar Group",
+                    "description": "Add New Toolbar Group"
                 }
             }
         ]
@@ -30,27 +246,27 @@
     "ReportDesigner": {
         "samples": [
             {
-                "routerPath": "getting-started",
-                "sampleName": "Getting Started",
+                "routerPath": "initialize-report-designer",
+                "sampleName": "Initialize Report Designer",
                 "metaData": {
-                    "title": "Getting Started",
-                    "description": "Getting Started description"
+                    "title": "Initialize Report Designer",
+                    "description": "To create or edit the RDL reports"
                 }
             },
             {
-                "routerPath": "overview",
-                "sampleName": "OverView",
+                "routerPath": "localization",
+                "sampleName": "Localization",
                 "metaData": {
-                    "title": "OverView",
-                    "description": "OverView description"
+                    "title": "Localization",
+                    "description": "Render the report designer in french locale"
                 }
             },
             {
-                "routerPath": "reports",
-                "sampleName": "Reports",
+                "routerPath": "server-integration",
+                "sampleName": "Server Integration",
                 "metaData": {
-                    "title": "Reports",
-                    "description": "Reports description"
+                    "title": "Browse, open and edit Syncfusion Report Server reports",
+                    "description": "Open and edit the Syncfusion Report Server reports"
                 }
             }
         ]
