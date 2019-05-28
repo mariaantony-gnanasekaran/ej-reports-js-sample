@@ -73,6 +73,7 @@ body {
     right: 0;
     top: 0;
     overflow-y: auto;
+    border-right: 1px solid #dedede;
     transition: left 400ms ease;
   }
   

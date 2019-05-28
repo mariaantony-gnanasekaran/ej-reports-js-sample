@@ -40,7 +40,7 @@ export class Sidebar {
             let tocItem = document.createElement('div');
             tocItem.classList.add('ej-doc-list-item');
             tocItem.tabIndex = -1;
-            tocItem.textContent = sample.sampleName;
+            tocItem.title = tocItem.textContent = sample.sampleName;
             tocItem.addEventListener('mousedown', this.onTocClick.bind({ prependHash: prependHash, sample: sample }));
             target.appendChild(tocItem);
         });

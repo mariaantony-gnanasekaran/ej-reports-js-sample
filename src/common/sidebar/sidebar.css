@@ -17,6 +17,9 @@
     font-weight: 400;
     font-size: 14px;
     cursor: pointer;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .ej-doc-sidebar-content .ej-doc-list-item:hover:not(.ej-doc-toc-selected ) {
