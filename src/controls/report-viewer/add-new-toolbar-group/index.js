@@ -1,3 +1,11 @@
+//Toolbar click event handler
+function ontoolBarItemClick(args) {
+    if (args.value === "CustomItem") {
+        //Implement the code to CustomItem toolbar option
+        alert("CustomItem toolbar option Clicked");
+    }
+}
+
 $(function () {
                 $("#viewer").ejReportViewer({
                     reportServiceUrl: "https://reports.syncfusion.com/demos/services/api/ReportViewer",
@@ -14,14 +22,6 @@ $(function () {
                             tooltip: { header: 'CustomItem', content: 'toolbaritems'}
                         }]
                     },
-                    toolBarItemClick: 'ontoolBarItemClick'
+                    toolBarItemClick: ontoolBarItemClick
                 });
             });
-
-            //Toolbar click event handler
-            function ontoolBarItemClick(args) {
-                if (args.value === "CustomItem") {
-                    //Implement the code to CustomItem toolbar option
-                    alert("CustomItem toolbar option Clicked");
-                }
-            }
